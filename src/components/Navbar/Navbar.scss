@@ -1,0 +1,27 @@
+nav {
+    
+    ul {
+        display: flex;
+        padding: 2rem 5rem 2rem 5rem;
+        justify-content: space-between;
+        flex-direction: row;
+        background-color: rgb(26, 26, 26);
+        list-style: none;
+        margin: 0;
+        li {
+            padding: 1rem 4rem 1rem 4rem;
+            background-color: rgb(26, 26, 26);
+            a {
+                color: rgb(241, 0, 0);
+                text-decoration: none;
+            }
+            &:hover {
+                a {
+                    color: yellow;
+                }
+                cursor: pointer;
+                background-color: rgba($color: #000000, $alpha: 0.4);
+            }
+        }
+    }
+}

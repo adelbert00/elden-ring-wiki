@@ -1,0 +1,36 @@
+.Bosses {
+    padding: 20px;
+  }
+  
+  .boss-list {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .boss-card {
+    border: 1px solid #ccc;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 4px;
+  }
+  
+  .boss-card img {
+    max-width: 20%;
+    height: auto;
+  }
+  
+  .boss-card h2 {
+    margin: 0 0 10px;
+  }
+  
+  .boss-card p {
+    margin: 0;
+  }
+  
+  button {
+    display: block;
+    margin: 20px auto;
+    padding: 10px 20px;
+    font-size: 16px;
+  }
+  
