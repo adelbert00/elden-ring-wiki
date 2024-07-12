@@ -4,7 +4,8 @@ import Bosses from '../../pages/Bosses/Bosses';
 import Locations from '../../pages/Locations/Locations';
 import Creatures from '../../pages/Creatures/Creatures';
 import NPCs from '../../pages/NPCs/NPCs';
-import './Navbar.scss'
+import Builder from '../../pages/Builder/Builder';
+import './Navbar.scss';
 
 const Navbar = () => {
   return (
@@ -26,6 +27,9 @@ const Navbar = () => {
           <li>
             <Link to="./npcs">NPCs</Link>
           </li>
+          <li>
+            <Link to="./builder">Builder</Link>
+          </li>
         </ul>
       </nav>
       <Routes>
@@ -34,6 +38,7 @@ const Navbar = () => {
         <Route path="/creatures" element={<Creatures />} />
         <Route path="/locations" element={<Locations />} />
         <Route path="/npcs" element={<NPCs />} />
+        <Route path="/builder" element={<Builder />} />
       </Routes>
     </Router>
   );

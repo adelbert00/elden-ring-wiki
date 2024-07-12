@@ -1,0 +1,71 @@
+.builder {
+  padding: 20px;
+  background-color: #f8f9fa;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+
+  h1 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #343a40;
+  }
+
+  .equipment {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+
+    .category {
+      flex: 1;
+      margin: 0 10px;
+      padding: 15px;
+      background-color: #ffffff;
+      border-radius: 10px;
+      box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+      text-align: center;
+
+      h2 {
+        margin-bottom: 10px;
+        color: #495057;
+      }
+
+      .selected-item {
+        img {
+          max-width: 100%;
+          height: auto;
+          margin-bottom: 5px;
+        }
+
+        p {
+          font-size: 14px;
+          color: #333;
+        }
+
+        .armor-stats {
+          font-size: 12px;
+          color: #333;
+          text-align: left;
+        }
+      }
+    }
+  }
+
+  .stats {
+    padding: 15px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+
+    h2 {
+      margin-bottom: 10px;
+      text-align: center;
+      color: #495057;
+    }
+
+    p {
+      font-size: 16px;
+      color: #6c757d;
+      text-align: center;
+    }
+  }
+}
